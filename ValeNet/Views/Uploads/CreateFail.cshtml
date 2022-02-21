@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Falha na carga do arquivo";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Blank page
+        <small>it all starts here</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="~/"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="Index">Lista de Importados</a></li>
+        <li class="active">Falha no carregamento do Arquivo</li>
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <form>
+        <!-- Default box -->
+        <div class="box">
+            <div class="box-header with-border">
+                <h3 class="box-title">UpLoad de Arquivo</h3>
+            </div>
+            <div class="box-body">
+                <div class="page-header">
+                    <h1 class="text-center text-success"><i class="fa fa-ban fa-5x"></i></h1>
+                    <h2 class="text-center text-success">Carga do arquivo não foi completada</h2>
+                </div>
+
+            </div>
+            <div class="box-footer">
+                <button asp-action="index" class="btn btn-default">Retornar</button>
+            </div>
+        </div>
+    </form>
+    <!-- /.box -->
+
+</section>
+<!-- /.content -->
